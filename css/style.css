@@ -157,8 +157,8 @@ p{
 /****** Projets et compétences ***********/
 .projets-et-competences {
     display: flex;
-    justify-content: space-between;
-    gap: 40px;
+    /*justify-content: space-between;*/
+    /*gap: 40px;*/
 
 }
 
@@ -170,7 +170,7 @@ p{
 
 }
 
-/****** Hebergements ***********/
+/****** Projets ***********/
 .projets {
     width: 100%;
     display: flex;
@@ -348,11 +348,32 @@ p{
   justify-content: space-between;  
   width: 100%;              
 }
-.img-projet img{
+.projet-kasa .img-projet img{
     max-width: calc((100% / 3) - 20px);   
   height: auto;
   display: block;
   object-fit: cover;        
+}
+.projet-grimoire .img-projet img{
+    max-width: calc((100% / 4) - 20px);   
+  height: auto;
+  display: block;
+  object-fit: cover;        
+}
+
+.contenu-projet {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+.projet-repart {
+  flex: 1;
+  max-width: auto;
+  /*! text-align: left; */
+  padding: 10px;
+  border: 1px solid purple;
+  box-sizing: border-box;
 }
 
 /*******footer********/
